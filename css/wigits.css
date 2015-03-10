@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+#horizontalSlider{
+   
+   width:  100%;
+	min-height: 18vh;
+	max-height: 45vh;
+	min-width: 260px;
+	overflow-y: hidden; 
+	overflow-x: scroll;
+	margin-bottom: 0.7%;
+	
+	
+}
+
+#titleBox{
+	width: 100%;
+	height: 30px;
+	/*background: linear-gradient(#313131, #7a7a7a);*/
+	/*background-color: #0eab00;*/
+	margin-top: 1.5%;
+}
+
+#horizontalSliderWidth{
+	width: 200%;
+	min-height: 18vh;
+	max-height: 45vh; 
+	
+}
+
+#horizontalSliderContent{
+   
+   /*width:  200%;*/
+   width: 75px;
+   height: 75px;
+   float: left;
+   margin-left: 2%;
+   margin-top: 0.5%;
+   
+
+}
+
+#horizontalSliderContentImage{
+   height:auto; 
+   width:auto; 
+   max-width:75px; 
+   max-height:75px; 
+   padding-left:10px;
+   padding-right: 10px;
+   display: inline-block
+   float: left;
+   
+   padding-top: 1%;
+ 	
+   
+}
+	.checkBoxTitle
+	{
+		margin-top: 45px;
+		width: 125px;
+		background-color: red;
+	}
+
+#dailyMessage
+{
+	overflow-y: hidden; 
+	overflow-x: hidden;
+}
+
+#sectionTitle
+{
+	border-top-right-radius: 2em;
+	border-top-left-radius: 2em;
+	background: linear-gradient(#313131, black);
+	color: white;
+	padding-left: 30px;
+	font-weight: bold;
+	margin-top: 2%;
+}
+
+#message
+{
+	   margin-top: 20px;
+      margin-bottom: 20px;
+      
+      width: 100%;
+      border-width: 1px;
+      border-bottom: solid;
+      border-color: #4b4b4b;
+      color: #FFFFFF;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#messageLogo
+{
+	height: 50px;
+	width: 50px;
+	background-image: url("images/iconSHELD.png");
+	background-size: 100% 100%;
+   background-repeat: no-repeat;
+	float: left;
+	margin-bottom: 1%;
+	margin-right: 1%;
+}
+
+input.switch:empty ~ label:before, 
+input.switch:empty ~ label:after
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+	width: 75px;
+	height: 75px;
+	/*background-color: #c33;*/
+	background-image: url("images/iconSHELDopic.png");
+	background-size: 100% 100%;
+   background-repeat: no-repeat;
+  	outline: none;
+
+	-webkit-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+}
+
+
+
+
+input.switch:checked ~ label:after
+{
+	/*margin-left: 2em;*/
+	background-image: url("images/iconSHELD.png");
+	background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+
+
+.testJQ {
+    height:100px;
+    width:100px;
+    display: inline-block;
+}
+
+#red {
+    background-color:#FF0000;
+}
+
+#blue {
+    background-color:#0000FF;
+}
+
+#yellow {
+    background-color:#E2BE22;
+}
+
+#green {
+    background-color:#008800;
+}
